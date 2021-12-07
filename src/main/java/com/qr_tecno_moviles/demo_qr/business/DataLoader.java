@@ -41,7 +41,7 @@ public class DataLoader implements CommandLineRunner {
                     .itemTitle("La Giaconda")
                     .roomName("Sala 1")
                     .itemIntro("El Retrato de Lisa Gherardini, esposa de Francesco del Giocondo, ​ más conocido como La Gioconda o La Mona Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci.")
-                    .itemMainContent("La mona lisa")
+                    .itemMainContent("El Retrato de Lisa Gherardini, esposa de Francesco del Giocondo, ​ más conocido como La Gioconda o La Mona Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci." + "El Retrato de Lisa Gherardini, esposa de Francesco del Giocondo, ​ más conocido como La Gioconda o La Mona Lisa, es una obra pictórica del polímata renacentista italiano Leonardo da Vinci.")
                     .itemMainPicture("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg/368px-Leonardo_da_Vinci_-_Mona_Lisa_%28Louvre%2C_Paris%29.jpg")
                     .itemGallery(list)
                     .itemYoutube("https://www.youtube.com/watch?v=MH3swJ0Tz1g")

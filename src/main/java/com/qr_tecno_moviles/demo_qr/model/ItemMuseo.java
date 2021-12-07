@@ -30,6 +30,7 @@ public class ItemMuseo implements Serializable {
     @Lob
     private String itemIntro;
 
+    @Lob
     private String itemMainContent;
 
     private String itemMainPicture;
