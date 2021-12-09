@@ -38,11 +38,11 @@ public class ItemMuseoRestController {
     }
 
     @GetMapping(value = "/item-museo", produces = MediaType.APPLICATION_JSON_VALUE)
-    public ResponseEntity<ItemMuseo> getItem (@RequestParam("qr") Long qr) {
+    public ResponseEntity<?> getItem (@RequestParam("qr") Long qr) {
         try {
             return new ResponseEntity<>(itemMuseoBusiness.load(qr), HttpStatus.OK);
         } catch (BusinessException e) {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+            return new ResponseEntity<>( e.getMessage(), HttpStatus.NOT_FOUND);
         }
     }
 
